@@ -8,4 +8,4 @@ This is a repository for my final project for Introduction to Data Science at UC
 
 **Data Sources**
 
-[Kaggle - Stock Market Data (NASDAQ, NYSE, S&P500](https://www.kaggle.com/paultimothymooney/stock-market-data)
+[Kaggle - Stock Market Data (NASDAQ, NYSE, S&P500)](https://www.kaggle.com/paultimothymooney/stock-market-data)
