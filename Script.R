@@ -122,7 +122,7 @@ aapl_par = ts_split(aapl_adjusted_ts, sample.out=365)
 train = aapl_par$train
 test = aapl_par$test
 
-# Remove NAs from data sets for visualization function purposes
+# Remove NAs from data sets for visualization function purposes (some were added with the ts_split function)
 aapl_adjusted_ts_cleaned = na.remove(aapl_adjusted_ts)
 
 # Let's decompose the full data set to check for any trends.
