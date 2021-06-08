@@ -165,22 +165,6 @@ test_forecast(actual = aapl_adjusted_ts,
               forecast.obj = forecast,
               test = test)
 
-# Plotting the forecast
-plot_forecast(forecast)
-
-methods = list(arima = list(method = "arima",
-                            notes = "ARIMA(1,1,0)"))
-
-train_method = list(partitions = 1,
-                    sample.out = 365,
-                    space = 30)
-
-md = train_model(input = aapl_adjusted_ts,
-                 method = methods,
-                 train_method = train_method,
-                 horizon = 3,
-                 error = "MAPE")
-
 # -------------------------------------------------------------------
 # CHECKING OUR MODEL ACCURACY
 # -------------------------------------------------------------------
